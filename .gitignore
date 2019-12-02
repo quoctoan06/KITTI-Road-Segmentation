@@ -1,0 +1,14 @@
+# Ignore the following folders
+.idea/
+bin/
+data/
+lib/
+lib64/
+logs/
+share/
+src/__pycache__/
+
+# Ignore the following files
+pyvenv.cfg
+lib64
+

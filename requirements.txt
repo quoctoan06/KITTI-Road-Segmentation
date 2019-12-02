@@ -1,0 +1,6 @@
+tqdm
+opencv-python
+keras
+tensorflow
+numpy
+imgaug
