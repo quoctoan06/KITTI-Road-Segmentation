@@ -1,0 +1,409 @@
+{'model': {'backend': 'UNET', 'im_width': 576, 'im_height': 160, 'classes': 2}, 'train': {'data_directory': '/content/drive/My Drive/20191/GR2/Colab/kitti_road', 'batch_size': 8, 'learning_rate': 1e-05, 'nb_epochs': 100, 'debug': True, 'save_model_name': 'UNET.hdf5', 'logs_dir': '/content/drive/My Drive/20191/GR2/Colab/logs', 'train_times': 8}}
+Retrieving Data...
+. . . . .Building UNET. . . . .
+. . . . .Build Compeleted. . . . .
+37
+Epoch 1/100
+296/296 [==============================] - 23s 79ms/step - loss: 0.6912 - accuracy: 0.6364
+
+Epoch 00001: accuracy improved from -inf to 0.63638, saving model to UNET.hdf5
+Epoch 2/100
+296/296 [==============================] - 21s 71ms/step - loss: 0.5666 - accuracy: 0.7345
+
+Epoch 00002: accuracy improved from 0.63638 to 0.73452, saving model to UNET.hdf5
+Epoch 3/100
+296/296 [==============================] - 21s 72ms/step - loss: 0.4926 - accuracy: 0.7800
+
+Epoch 00003: accuracy improved from 0.73452 to 0.77995, saving model to UNET.hdf5
+Epoch 4/100
+296/296 [==============================] - 22s 73ms/step - loss: 0.4498 - accuracy: 0.7963
+
+Epoch 00004: accuracy improved from 0.77995 to 0.79631, saving model to UNET.hdf5
+Epoch 5/100
+296/296 [==============================] - 21s 72ms/step - loss: 0.4218 - accuracy: 0.8045
+
+Epoch 00005: accuracy improved from 0.79631 to 0.80452, saving model to UNET.hdf5
+Epoch 6/100
+296/296 [==============================] - 21s 72ms/step - loss: 0.3887 - accuracy: 0.8180
+
+Epoch 00006: accuracy improved from 0.80452 to 0.81804, saving model to UNET.hdf5
+Epoch 7/100
+296/296 [==============================] - 21s 72ms/step - loss: 0.3596 - accuracy: 0.8427
+
+Epoch 00007: accuracy improved from 0.81804 to 0.84265, saving model to UNET.hdf5
+Epoch 8/100
+296/296 [==============================] - 21s 71ms/step - loss: 0.3331 - accuracy: 0.8562
+
+Epoch 00008: accuracy improved from 0.84265 to 0.85623, saving model to UNET.hdf5
+Epoch 9/100
+296/296 [==============================] - 21s 72ms/step - loss: 0.3153 - accuracy: 0.8659
+
+Epoch 00009: accuracy improved from 0.85623 to 0.86591, saving model to UNET.hdf5
+Epoch 10/100
+296/296 [==============================] - 21s 72ms/step - loss: 0.2907 - accuracy: 0.8800
+
+Epoch 00010: accuracy improved from 0.86591 to 0.88002, saving model to UNET.hdf5
+Epoch 11/100
+296/296 [==============================] - 21s 72ms/step - loss: 0.2770 - accuracy: 0.8907
+
+Epoch 00011: accuracy improved from 0.88002 to 0.89068, saving model to UNET.hdf5
+Epoch 12/100
+296/296 [==============================] - 21s 71ms/step - loss: 0.2626 - accuracy: 0.8998
+
+Epoch 00012: accuracy improved from 0.89068 to 0.89978, saving model to UNET.hdf5
+Epoch 13/100
+296/296 [==============================] - 21s 71ms/step - loss: 0.2457 - accuracy: 0.9081
+
+Epoch 00013: accuracy improved from 0.89978 to 0.90808, saving model to UNET.hdf5
+Epoch 14/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.2311 - accuracy: 0.9129
+
+Epoch 00014: accuracy improved from 0.90808 to 0.91288, saving model to UNET.hdf5
+Epoch 15/100
+296/296 [==============================] - 21s 71ms/step - loss: 0.2270 - accuracy: 0.9143
+
+Epoch 00015: accuracy improved from 0.91288 to 0.91427, saving model to UNET.hdf5
+Epoch 16/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.2217 - accuracy: 0.9156
+
+Epoch 00016: accuracy improved from 0.91427 to 0.91564, saving model to UNET.hdf5
+Epoch 17/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.2091 - accuracy: 0.9211
+
+Epoch 00017: accuracy improved from 0.91564 to 0.92111, saving model to UNET.hdf5
+Epoch 18/100
+296/296 [==============================] - 21s 71ms/step - loss: 0.2011 - accuracy: 0.9236
+
+Epoch 00018: accuracy improved from 0.92111 to 0.92361, saving model to UNET.hdf5
+Epoch 19/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.2079 - accuracy: 0.9210
+
+Epoch 00019: accuracy did not improve from 0.92361
+Epoch 20/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1893 - accuracy: 0.9284
+
+Epoch 00020: accuracy improved from 0.92361 to 0.92837, saving model to UNET.hdf5
+Epoch 21/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1808 - accuracy: 0.9313
+
+Epoch 00021: accuracy improved from 0.92837 to 0.93125, saving model to UNET.hdf5
+Epoch 22/100
+296/296 [==============================] - 21s 71ms/step - loss: 0.1738 - accuracy: 0.9340
+
+Epoch 00022: accuracy improved from 0.93125 to 0.93403, saving model to UNET.hdf5
+Epoch 23/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1765 - accuracy: 0.9324
+
+Epoch 00023: accuracy did not improve from 0.93403
+Epoch 24/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1676 - accuracy: 0.9365
+
+Epoch 00024: accuracy improved from 0.93403 to 0.93651, saving model to UNET.hdf5
+Epoch 25/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1665 - accuracy: 0.9359
+
+Epoch 00025: accuracy did not improve from 0.93651
+Epoch 26/100
+296/296 [==============================] - 21s 69ms/step - loss: 0.1607 - accuracy: 0.9378
+
+Epoch 00026: accuracy improved from 0.93651 to 0.93781, saving model to UNET.hdf5
+Epoch 27/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1533 - accuracy: 0.9409
+
+Epoch 00027: accuracy improved from 0.93781 to 0.94094, saving model to UNET.hdf5
+Epoch 28/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.1488 - accuracy: 0.9425
+
+Epoch 00028: accuracy improved from 0.94094 to 0.94250, saving model to UNET.hdf5
+Epoch 29/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.1474 - accuracy: 0.9435
+
+Epoch 00029: accuracy improved from 0.94250 to 0.94347, saving model to UNET.hdf5
+Epoch 30/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1453 - accuracy: 0.9435
+
+Epoch 00030: accuracy improved from 0.94347 to 0.94351, saving model to UNET.hdf5
+Epoch 31/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1423 - accuracy: 0.9455
+
+Epoch 00031: accuracy improved from 0.94351 to 0.94552, saving model to UNET.hdf5
+Epoch 32/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1317 - accuracy: 0.9490
+
+Epoch 00032: accuracy improved from 0.94552 to 0.94903, saving model to UNET.hdf5
+Epoch 33/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1339 - accuracy: 0.9484
+
+Epoch 00033: accuracy did not improve from 0.94903
+Epoch 34/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.1287 - accuracy: 0.9512
+
+Epoch 00034: accuracy improved from 0.94903 to 0.95115, saving model to UNET.hdf5
+Epoch 35/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1294 - accuracy: 0.9504
+
+Epoch 00035: accuracy did not improve from 0.95115
+Epoch 36/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1287 - accuracy: 0.9509
+
+Epoch 00036: accuracy did not improve from 0.95115
+Epoch 37/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1157 - accuracy: 0.9548
+
+Epoch 00037: accuracy improved from 0.95115 to 0.95477, saving model to UNET.hdf5
+Epoch 38/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1171 - accuracy: 0.9558
+
+Epoch 00038: accuracy improved from 0.95477 to 0.95576, saving model to UNET.hdf5
+Epoch 39/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1092 - accuracy: 0.9579
+
+Epoch 00039: accuracy improved from 0.95576 to 0.95789, saving model to UNET.hdf5
+Epoch 40/100
+296/296 [==============================] - 21s 69ms/step - loss: 0.1053 - accuracy: 0.9595
+
+Epoch 00040: accuracy improved from 0.95789 to 0.95946, saving model to UNET.hdf5
+Epoch 41/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.1115 - accuracy: 0.9572
+
+Epoch 00041: accuracy did not improve from 0.95946
+Epoch 42/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.1047 - accuracy: 0.9598
+
+Epoch 00042: accuracy improved from 0.95946 to 0.95980, saving model to UNET.hdf5
+Epoch 43/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.1044 - accuracy: 0.9607
+
+Epoch 00043: accuracy improved from 0.95980 to 0.96068, saving model to UNET.hdf5
+Epoch 44/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0941 - accuracy: 0.9638
+
+Epoch 00044: accuracy improved from 0.96068 to 0.96383, saving model to UNET.hdf5
+Epoch 45/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0963 - accuracy: 0.9632
+
+Epoch 00045: accuracy did not improve from 0.96383
+Epoch 46/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0900 - accuracy: 0.9658
+
+Epoch 00046: accuracy improved from 0.96383 to 0.96580, saving model to UNET.hdf5
+Epoch 47/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0976 - accuracy: 0.9626
+
+Epoch 00047: accuracy did not improve from 0.96580
+Epoch 48/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.1015 - accuracy: 0.9619
+
+Epoch 00048: accuracy did not improve from 0.96580
+Epoch 49/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0885 - accuracy: 0.9664
+
+Epoch 00049: accuracy improved from 0.96580 to 0.96637, saving model to UNET.hdf5
+Epoch 50/100
+296/296 [==============================] - 21s 69ms/step - loss: 0.0871 - accuracy: 0.9667
+
+Epoch 00050: accuracy improved from 0.96637 to 0.96672, saving model to UNET.hdf5
+Epoch 51/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.0831 - accuracy: 0.9683
+
+Epoch 00051: accuracy improved from 0.96672 to 0.96830, saving model to UNET.hdf5
+Epoch 52/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0800 - accuracy: 0.9696
+
+Epoch 00052: accuracy improved from 0.96830 to 0.96963, saving model to UNET.hdf5
+Epoch 53/100
+296/296 [==============================] - 20s 68ms/step - loss: 0.0771 - accuracy: 0.9706
+
+Epoch 00053: accuracy improved from 0.96963 to 0.97059, saving model to UNET.hdf5
+Epoch 54/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0767 - accuracy: 0.9707
+
+Epoch 00054: accuracy improved from 0.97059 to 0.97070, saving model to UNET.hdf5
+Epoch 55/100
+296/296 [==============================] - 20s 68ms/step - loss: 0.0771 - accuracy: 0.9706
+
+Epoch 00055: accuracy did not improve from 0.97070
+Epoch 56/100
+296/296 [==============================] - 21s 69ms/step - loss: 0.0720 - accuracy: 0.9721
+
+Epoch 00056: accuracy improved from 0.97070 to 0.97214, saving model to UNET.hdf5
+Epoch 57/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0713 - accuracy: 0.9729
+
+Epoch 00057: accuracy improved from 0.97214 to 0.97291, saving model to UNET.hdf5
+Epoch 58/100
+296/296 [==============================] - 20s 68ms/step - loss: 0.0678 - accuracy: 0.9742
+
+Epoch 00058: accuracy improved from 0.97291 to 0.97423, saving model to UNET.hdf5
+Epoch 59/100
+296/296 [==============================] - 20s 68ms/step - loss: 0.0659 - accuracy: 0.9750
+
+Epoch 00059: accuracy improved from 0.97423 to 0.97502, saving model to UNET.hdf5
+Epoch 60/100
+296/296 [==============================] - 20s 68ms/step - loss: 0.0701 - accuracy: 0.9735
+
+Epoch 00060: accuracy did not improve from 0.97502
+Epoch 61/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0671 - accuracy: 0.9743
+
+Epoch 00061: accuracy did not improve from 0.97502
+Epoch 62/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0650 - accuracy: 0.9754
+
+Epoch 00062: accuracy improved from 0.97502 to 0.97544, saving model to UNET.hdf5
+Epoch 63/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0716 - accuracy: 0.9731
+
+Epoch 00063: accuracy did not improve from 0.97544
+Epoch 64/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0601 - accuracy: 0.9770
+
+Epoch 00064: accuracy improved from 0.97544 to 0.97695, saving model to UNET.hdf5
+Epoch 65/100
+296/296 [==============================] - 21s 69ms/step - loss: 0.0708 - accuracy: 0.9736
+
+Epoch 00065: accuracy did not improve from 0.97695
+Epoch 66/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0624 - accuracy: 0.9766
+
+Epoch 00066: accuracy did not improve from 0.97695
+Epoch 67/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.0602 - accuracy: 0.9772
+
+Epoch 00067: accuracy improved from 0.97695 to 0.97724, saving model to UNET.hdf5
+Epoch 68/100
+296/296 [==============================] - 21s 69ms/step - loss: 0.0538 - accuracy: 0.9793
+
+Epoch 00068: accuracy improved from 0.97724 to 0.97925, saving model to UNET.hdf5
+Epoch 69/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.0561 - accuracy: 0.9783
+
+Epoch 00069: accuracy did not improve from 0.97925
+Epoch 70/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0554 - accuracy: 0.9789
+
+Epoch 00070: accuracy did not improve from 0.97925
+Epoch 71/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.0558 - accuracy: 0.9789
+
+Epoch 00071: accuracy did not improve from 0.97925
+Epoch 72/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0487 - accuracy: 0.9815
+
+Epoch 00072: accuracy improved from 0.97925 to 0.98154, saving model to UNET.hdf5
+Epoch 73/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.0540 - accuracy: 0.9795
+
+Epoch 00073: accuracy did not improve from 0.98154
+Epoch 74/100
+296/296 [==============================] - 21s 71ms/step - loss: 0.0558 - accuracy: 0.9791
+
+Epoch 00074: accuracy did not improve from 0.98154
+Epoch 75/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.0438 - accuracy: 0.9834
+
+Epoch 00075: accuracy improved from 0.98154 to 0.98344, saving model to UNET.hdf5
+Epoch 76/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.0534 - accuracy: 0.9801
+
+Epoch 00076: accuracy did not improve from 0.98344
+Epoch 77/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.0520 - accuracy: 0.9800
+
+Epoch 00077: accuracy did not improve from 0.98344
+Epoch 78/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0486 - accuracy: 0.9814
+
+Epoch 00078: accuracy did not improve from 0.98344
+Epoch 79/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.0452 - accuracy: 0.9827
+
+Epoch 00079: accuracy did not improve from 0.98344
+Epoch 80/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.0448 - accuracy: 0.9824
+
+Epoch 00080: accuracy did not improve from 0.98344
+
+Epoch 00080: ReduceLROnPlateau reducing learning rate to 1.9999999494757505e-06.
+Epoch 81/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0404 - accuracy: 0.9845
+
+Epoch 00081: accuracy improved from 0.98344 to 0.98447, saving model to UNET.hdf5
+Epoch 82/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0409 - accuracy: 0.9847
+
+Epoch 00082: accuracy improved from 0.98447 to 0.98474, saving model to UNET.hdf5
+Epoch 83/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0389 - accuracy: 0.9853
+
+Epoch 00083: accuracy improved from 0.98474 to 0.98531, saving model to UNET.hdf5
+Epoch 84/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.0383 - accuracy: 0.9855
+
+Epoch 00084: accuracy improved from 0.98531 to 0.98555, saving model to UNET.hdf5
+Epoch 85/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0396 - accuracy: 0.9852
+
+Epoch 00085: accuracy did not improve from 0.98555
+Epoch 86/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0366 - accuracy: 0.9861
+
+Epoch 00086: accuracy improved from 0.98555 to 0.98608, saving model to UNET.hdf5
+Epoch 87/100
+296/296 [==============================] - 20s 68ms/step - loss: 0.0389 - accuracy: 0.9853
+
+Epoch 00087: accuracy did not improve from 0.98608
+Epoch 88/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.0442 - accuracy: 0.9834
+
+Epoch 00088: accuracy did not improve from 0.98608
+Epoch 89/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0398 - accuracy: 0.9851
+
+Epoch 00089: accuracy did not improve from 0.98608
+Epoch 90/100
+296/296 [==============================] - 20s 68ms/step - loss: 0.0360 - accuracy: 0.9864
+
+Epoch 00090: accuracy improved from 0.98608 to 0.98642, saving model to UNET.hdf5
+Epoch 91/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0380 - accuracy: 0.9856
+
+Epoch 00091: accuracy did not improve from 0.98642
+Epoch 92/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0383 - accuracy: 0.9856
+
+Epoch 00092: accuracy did not improve from 0.98642
+Epoch 93/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0375 - accuracy: 0.9858
+
+Epoch 00093: accuracy did not improve from 0.98642
+Epoch 94/100
+296/296 [==============================] - 20s 68ms/step - loss: 0.0347 - accuracy: 0.9867
+
+Epoch 00094: accuracy improved from 0.98642 to 0.98674, saving model to UNET.hdf5
+Epoch 95/100
+296/296 [==============================] - 20s 68ms/step - loss: 0.0343 - accuracy: 0.9872
+
+Epoch 00095: accuracy improved from 0.98674 to 0.98716, saving model to UNET.hdf5
+Epoch 96/100
+296/296 [==============================] - 20s 68ms/step - loss: 0.0354 - accuracy: 0.9864
+
+Epoch 00096: accuracy did not improve from 0.98716
+Epoch 97/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0356 - accuracy: 0.9865
+
+Epoch 00097: accuracy did not improve from 0.98716
+Epoch 98/100
+296/296 [==============================] - 21s 70ms/step - loss: 0.0393 - accuracy: 0.9853
+
+Epoch 00098: accuracy did not improve from 0.98716
+Epoch 99/100
+296/296 [==============================] - 21s 69ms/step - loss: 0.0367 - accuracy: 0.9859
+
+Epoch 00099: accuracy did not improve from 0.98716
+Epoch 100/100
+296/296 [==============================] - 20s 69ms/step - loss: 0.0355 - accuracy: 0.9866
+
+Epoch 00100: accuracy did not improve from 0.98716
+
+Epoch 00100: ReduceLROnPlateau reducing learning rate to 5.000000000000001e-07.
